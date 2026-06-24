@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <!-- Family Button -->
+    <Button
+        android:id="@+id/btnFamily"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:backgroundTint="#2E7D32"
+        android:text="SEND TO FAMILY"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:elevation="8dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- Unique SOS Button Design -->
+    <Button
+        android:id="@+id/btnSOS"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:backgroundTint="#D50000"
+        android:elevation="20dp"
+        android:text="SOS"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Yeh SOS button hangami soorat-e-hal ke liye hai"
+        android:textColor="#BDBDBD"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+
+    <!-- Settings Button (رنگ گہرا جامنی - Deep Purple) -->
+    <Button
+        android:id="@+id/btnSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#00000000"
+        android:text="Settings"
+        android:textColor="#6A1B9A"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
+
